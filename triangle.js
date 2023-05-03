@@ -24,7 +24,7 @@ function getTriangleType(lengthA, lengthB, lengthC) { // eslint-disable-line no-
       type = NOT_A_TRIANGLE;
     } else { // All sides different = scalene
       if ( (a==b) && (b==c)) {
-        type = EQUILATERAL;
+        type = ISOSCELES;
       } else if ( (a==b) || (b==c) || (a==c)) {
         type = ISOSCELES;
       } else {
