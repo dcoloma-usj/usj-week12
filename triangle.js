@@ -33,6 +33,7 @@ function getTriangleType(lengthA, lengthB, lengthC) { // eslint-disable-line no-
     }
   }
   
+  // eslint-disable-next-line no-undef
   gtag('event', 'getTriangleType', {
     'triangleType': type
   });
